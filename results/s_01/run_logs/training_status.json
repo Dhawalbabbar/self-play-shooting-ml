@@ -1,0 +1,29 @@
+{
+    "Shooter": {
+        "checkpoints": [
+            {
+                "steps": 49968,
+                "file_path": "results\\s_01\\Shooter\\Shooter-49968.nn",
+                "reward": -0.5074545287273147,
+                "creation_time": 1605176585.2368512
+            },
+            {
+                "steps": 89152,
+                "file_path": "results\\s_01\\Shooter\\Shooter-89152.nn",
+                "reward": -0.5039999878240956,
+                "creation_time": 1605177359.0807052
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 89152,
+            "file_path": "results\\s_01\\Shooter.nn",
+            "reward": -0.5039999878240956,
+            "creation_time": 1605177359.0807052
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.21.0",
+        "tensorflow_version": "2.3.1"
+    }
+}
