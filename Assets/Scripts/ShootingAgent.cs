@@ -40,7 +40,7 @@ public class ShootingAgent : Agent
     }
 
     public void iDie(){
-        print("iDie");
+        // print("iDie");
         AddReward(-2f);
     }
 

@@ -848,6 +848,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Agent1
       objectReference: {fileID: 0}
+    - target: {fileID: 7231403567357830987, guid: 1cc62d897673559408833cbb7fe7eb82,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5accfca6e7911ea449a1b276daa205df, type: 2}
     - target: {fileID: 7231403567357831088, guid: 1cc62d897673559408833cbb7fe7eb82,
         type: 3}
       propertyPath: TeamId
@@ -856,7 +861,7 @@ PrefabInstance:
     - target: {fileID: 7231403567357831088, guid: 1cc62d897673559408833cbb7fe7eb82,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7231403567357831093, guid: 1cc62d897673559408833cbb7fe7eb82,
         type: 3}
@@ -936,8 +941,14 @@ PrefabInstance:
     - target: {fileID: 7231403567357831088, guid: 1cc62d897673559408833cbb7fe7eb82,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7231403567357831088, guid: 1cc62d897673559408833cbb7fe7eb82,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 2f56cbeb3ab348b46ad5767c944af99a,
+        type: 3}
     - target: {fileID: 7231403567357831093, guid: 1cc62d897673559408833cbb7fe7eb82,
         type: 3}
       propertyPath: m_LocalPosition.x
