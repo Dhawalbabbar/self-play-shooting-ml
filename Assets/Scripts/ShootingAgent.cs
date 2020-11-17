@@ -41,7 +41,7 @@ public class ShootingAgent : Agent
 
     public void iDie(){
         // print("iDie");
-        AddReward(-2f);
+        AddReward(-0.5f);
     }
 
     private void FixedUpdate() {
